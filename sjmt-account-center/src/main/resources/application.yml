@@ -1,0 +1,7 @@
+server:
+  port: 8666
+dubbo:
+  application:
+    name: sjmt-account-center
+  registry:
+    address: nacos://localhost:8848
