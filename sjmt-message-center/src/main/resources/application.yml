@@ -1,8 +1,8 @@
 server:
-  port: 8666
+  port: 8667
 dubbo:
   application:
-    name: sjmt-account-center
+    name: sjmt-message-center
   protocol:
     name: dubbo
     port: -1
@@ -10,3 +10,4 @@ dubbo:
     address: nacos://106.54.177.184:8848
     username: nacos
     password: nacos
+    parameters.register-consumer-url: true

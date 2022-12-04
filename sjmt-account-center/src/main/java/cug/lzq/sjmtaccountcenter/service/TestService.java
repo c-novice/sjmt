@@ -1,4 +1,4 @@
-package cug.lzq.service;
+package cug.lzq.sjmtaccountcenter.service;
 
 import org.apache.dubbo.config.annotation.DubboService;
 import org.springframework.stereotype.Service;
@@ -9,6 +9,6 @@ public class TestService implements Test {
     @Override
     public String hello() {
         System.out.println("hello world");
-        return "hello world";
+        return "你好，世界";
     }
 }

@@ -1,4 +1,4 @@
-package cug.lzq.service;
+package cug.lzq.sjmtaccountcenter.service;
 
 public interface Test {
     String hello();
