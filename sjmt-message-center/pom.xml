@@ -10,10 +10,10 @@
     </parent>
 
     <groupId>cug.lzq</groupId>
-    <artifactId>sjmt-account-center</artifactId>
+    <artifactId>sjmt-message-center</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>sjmt-account-center</name>
-    <description>账户中台，包括账户、权限</description>
+    <name>sjmt-message-center</name>
+    <description>消息中台，包括消息触达</description>
 
     <properties>
         <java.version>8</java.version>
@@ -50,6 +50,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>cug.lzq</groupId>
+            <artifactId>sjmt-account-center</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
